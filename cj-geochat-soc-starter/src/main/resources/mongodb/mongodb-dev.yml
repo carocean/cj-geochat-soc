@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      host: geochat-ecs.local
+      port: 27017
+      database: soc
+      username: admin
+      password: example
+#      uri:
