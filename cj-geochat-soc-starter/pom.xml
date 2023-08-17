@@ -107,6 +107,7 @@
                     <env>
                         <cj.geochat.spring.profiles.active>prod</cj.geochat.spring.profiles.active>
                         <cj.geochat.EUREKA_SERVER_URL>http://geochat-ecs.local:8761/eureka</cj.geochat.EUREKA_SERVER_URL>
+                        <cj.geochat.MONGODB_URL>mongodb://superadmin:123456@geochat-ecs.local:27017/soc</cj.geochat.MONGODB_URL>
                     </env>
                     <!--指定远程 docker api地址 远程仓库-->
                     <!--                    <dockerHost>http://localhost:2375</dockerHost>-->
