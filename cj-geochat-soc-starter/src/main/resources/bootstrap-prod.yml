@@ -16,10 +16,6 @@ spring:
   #      password:
   config:
     import:
-      - optional:security/security-prod.yml
-      - optional:kafka/kafka-prod.yml
-      - optional:redis/redis-prod.yml
-      - optional:mysql/mysql-prod.yml
       - optional:mongodb/mongodb-prod.yml
 eureka:
   client:

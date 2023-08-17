@@ -1,4 +1,4 @@
-package cj.geochat.soc.doc;
+package cj.geochat.soc.entity;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

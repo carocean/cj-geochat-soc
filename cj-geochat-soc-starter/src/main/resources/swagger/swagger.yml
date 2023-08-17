@@ -1,7 +1,7 @@
 appdoc:
   info:
-    title: 消息中心·前置
-    description: 用于接收客端长连接，并推送消息到终端
+    title: 社会关系中心
+    description: 维护用户的社会关系（如通讯录）、平台channel与成员关系等
     summary:
     version: 1.0.0
     contact:

@@ -1,9 +1,6 @@
 spring:
   data:
     mongodb:
-      host: geochat-ecs.local
-      port: 27017
-      database: soc
-      username: admin
-      password: example
-#      uri:
+      authentication-database: admin
+      #db.createUser({"user":"superadmin","pwd":"123456","roles":[{"role":"readWrite","db":"soc"}]});
+      uri: mongodb://superadmin:123456@geochat-ecs.local:27017/soc

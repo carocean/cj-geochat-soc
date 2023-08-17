@@ -1,13 +1,13 @@
-package cj.geochat.imc.comet;
+package cj.geochat.soc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = {"cj.geochat.imc.comet"})
-public class CometStarterApplication {
+@SpringBootApplication(scanBasePackages = {"cj.geochat.soc"})
+public class SocialStarterApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CometStarterApplication.class, args);
+        SpringApplication.run(SocialStarterApplication.class, args);
     }
 
 }
