@@ -18,8 +18,8 @@
     </properties>
 <dependencies>
     <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        <groupId>cj.geochat</groupId>
+        <artifactId>cj-geochat-ability-mongodb</artifactId>
     </dependency>
 </dependencies>
     <build>
